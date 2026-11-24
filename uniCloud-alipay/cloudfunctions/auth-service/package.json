@@ -1,0 +1,16 @@
+{
+  "name": "auth-service",
+  "dependencies": {
+    "nodemailer": "^10.6.1",
+    "uni-config-center": "file:../common/uni-config-center",
+    "vk-mail": "file:../../../uni_modules/vk-mail/uniCloud/cloudfunctions/common/vk-mail"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  },
+  "cloudfunction-config": {
+    "runtime": "Nodejs18",
+    "timeout": 60,
+    "memorySize": 256
+  }
+}

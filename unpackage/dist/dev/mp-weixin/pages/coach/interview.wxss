@@ -1,0 +1,109 @@
+
+.container.data-v-a67ab2e2 {
+		padding: 20px;
+		background-color: #F8F8F8;
+		min-height: 100vh;
+}
+.header.data-v-a67ab2e2 {
+		margin-bottom: 20px;
+}
+.title.data-v-a67ab2e2 {
+		font-size: 22px;
+		font-weight: bold;
+		display: block;
+		margin-bottom: 5px;
+}
+.subtitle.data-v-a67ab2e2 {
+		font-size: 14px;
+		color: #666;
+}
+.card.data-v-a67ab2e2 {
+		background: #fff;
+		border-radius: 12px;
+		padding: 20px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.desc.data-v-a67ab2e2 {
+		font-size: 15px;
+		color: #333;
+		margin-bottom: 20px;
+		line-height: 1.5;
+}
+.btn.data-v-a67ab2e2 {
+		background-color: #007AFF;
+		color: white;
+		border-radius: 8px;
+		font-size: 16px;
+		padding: 12px 0;
+		margin-top: 15px;
+}
+.btn[disabled].data-v-a67ab2e2 {
+		background-color: #99C6FF;
+}
+.btn-outline.data-v-a67ab2e2 {
+		background-color: #fff;
+		color: #007AFF;
+		border: 1px solid #007AFF;
+}
+.q-label.data-v-a67ab2e2 {
+		font-size: 13px;
+		color: #999;
+		margin-bottom: 8px;
+}
+.q-text.data-v-a67ab2e2 {
+		font-size: 16px;
+		font-weight: bold;
+		color: #333;
+		line-height: 1.5;
+		margin-bottom: 20px;
+		padding: 15px;
+		background: #F8F8F8;
+		border-radius: 8px;
+}
+.answer-input.data-v-a67ab2e2 {
+		width: 100%;
+		height: 150px;
+		border: 1px solid #eee;
+		border-radius: 8px;
+		padding: 15px;
+		box-sizing: border-box;
+		font-size: 14px;
+		margin-bottom: 10px;
+}
+.score-box.data-v-a67ab2e2 {
+		text-align: center;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px dashed #eee;
+}
+.score-label.data-v-a67ab2e2 {
+		font-size: 14px;
+		color: #666;
+		display: block;
+		margin-bottom: 5px;
+}
+.score-value.data-v-a67ab2e2 {
+		font-size: 48px;
+		font-weight: bold;
+		color: #FF9500;
+}
+.result-block.data-v-a67ab2e2 {
+		margin-bottom: 20px;
+}
+.result-title.data-v-a67ab2e2 {
+		font-size: 15px;
+		font-weight: bold;
+		margin-bottom: 10px;
+}
+.text-green.data-v-a67ab2e2 {
+		color: #34C759;
+}
+.text-blue.data-v-a67ab2e2 {
+		color: #007AFF;
+}
+.list-item.data-v-a67ab2e2 {
+		font-size: 14px;
+		color: #333;
+		line-height: 1.6;
+		margin-bottom: 5px;
+}

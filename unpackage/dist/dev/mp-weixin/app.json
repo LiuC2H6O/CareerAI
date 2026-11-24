@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/career/explore",
+    "pages/career/jobs",
+    "pages/career/match",
+    "pages/assessment/index",
+    "pages/coach/ai-coach",
+    "pages/coach/chat",
+    "pages/coach/resume",
+    "pages/coach/interview",
+    "pages/growth/record",
+    "pages/growth/report"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "职航AI",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/career/explore",
+        "text": "职业"
+      },
+      {
+        "pagePath": "pages/assessment/index",
+        "text": "测评"
+      },
+      {
+        "pagePath": "pages/coach/ai-coach",
+        "text": "AI教练"
+      },
+      {
+        "pagePath": "pages/growth/record",
+        "text": "成长"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

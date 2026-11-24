@@ -1,0 +1,1 @@
+{"version":3,"file":"chat.js","sources":["../../Software/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvY29hY2gvY2hhdC52dWU"],"sourcesContent":["import MiniProgramPage from 'D:/CareerAI/CareerAI/pages/coach/chat.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

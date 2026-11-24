@@ -1,73 +1,124 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
+		{
+			"path": "pages/login/log",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
 		{
 			"path": "pages/index/index",
+			"style": { "navigationBarTitleText": "首页工作台" }
+		},
+		{
+			"path": "pages/career/explore",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "职业探索",
+				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path" : "pages/career/career",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
+			"path": "pages/career/jobs",
+			"style": { "navigationBarTitleText": "岗位列表" }
+		},
+		{
+			"path": "pages/career/match",
+			"style": { "navigationBarTitleText": "岗位能力匹配" }
+		},
+		{
+			"path": "pages/assessment/index",
+			"style": {
+				"navigationBarTitleText": "职业能力测评",
+				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path" : "pages/career/explore/explore",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
+			"path": "pages/assessment/career-profile",
+			"style": { "navigationBarTitleText": "综合职业画像" }
+		},
+		{
+			"path": "pages/coach/ai-coach",
+			"style": {
+				"navigationBarTitleText": "AI就业教练",
+				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path" : "pages/career/explore/explore",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
+			"path": "pages/coach/chat",
+			"style": { "navigationBarTitleText": "AI对话" }
+		},
+		{
+			"path": "pages/coach/resume",
+			"style": { "navigationBarTitleText": "简历诊断" }
+		},
+		{
+			"path": "pages/coach/interview",
+			"style": { "navigationBarTitleText": "模拟面试" }
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path" : "pages/assessment/assessment",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
+			"path": "pages/growth/record",
+			"style": { "navigationBarTitleText": "成长档案" }
 		},
 		{
-			"path" : "pages/coach/coach",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
+			"path": "pages/growth/report",
+			"style": { "navigationBarTitleText": "成长报告" }
 		},
 		{
-			"path" : "pages/growth/growth",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/components/components",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/api/api",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册页"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "职航AI",
+		"navigationBarBackgroundColor": "#FFF8EE",
+		"backgroundColor": "#FFF8EE"
 	},
-	"uniIdRouter": {}
+	"tabBar": {
+		"color": "#A08C77",
+		"selectedColor": "#FF5FA2",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icons/tab-home.png",
+				"selectedIconPath": "static/icons/tab-home-active.png"
+			},
+			{
+				"pagePath": "pages/career/explore",
+				"text": "职业",
+				"iconPath": "static/icons/career.png",
+				"selectedIconPath": "static/icons/tab-career-active.png"
+			},
+			{
+				"pagePath": "pages/assessment/index",
+				"text": "测评",
+				"iconPath": "static/icons/assessment-active.png",
+				"selectedIconPath": "static/icons/tab-assessment.png"
+			},
+			{
+				"pagePath": "pages/coach/ai-coach",
+				"text": "AI教练",
+				"iconPath": "static/icons/coach.png",
+				"selectedIconPath": "static/icons/tab-coach-active.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/icons/mine.png",
+				"selectedIconPath": "static/icons/tab-mine-active.png"
+			}
+		]
+	}
 }
